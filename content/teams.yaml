@@ -1,33 +1,127 @@
-- name: John Doe
-  role: Mentor
-  img: images/teams/avatar.png
+- name: Erik Rosa
+  role: DSC Lead and Founder
+  img: https://drive.google.com/uc?export=view&id=1ralikgzQfa15TtCvK3VX7PEAu6SSvtlg
   descs:
-    - Mobile and Web developer
-    - Open source enthusiast
-    - Community mentor
+    - My goal is to bridge the gap between theory and 
+    - practice and give students the skills they need to 
+    - succeed in the tech industry.
   social:
-    twitter: https://www.example.com
-    github: https://www.example.com
-    linkedin: https://www.example.com
+    linkedin: https://www.linkedin.com/in/erik-rosa/
+    instagram: https://www.instagram.com/rosascores/
 
-- name: John Doe 2
-  role: Mentor
-  img: images/teams/avatar.png
+- name: Justin Schwartz
+  role: DSC Vice President
+  img: https://drive.google.com/uc?export=view&id=1_8aifCB6vfgfX77WMj2xBS-9ucLV4OuO
   descs:
-    - Mobile and Web developer
-    - Open source enthusiast
-    - Community mentor
+    - Passionate about software 
+    - engineering, product design, 
+    - and business development.
   social:
-    twitter: https://www.example.com
-    github: https://www.example.com
+    twitter: https://www.twitter.com #DO NOT DELETE, breaks for some reason
+    github: https://github.com/schwjustin
+    linkedin: https://www.linkedin.com/in/schwjustin/
+    instagram: https://www.instagram.com/schw.justin/
 
-- name: John Doe 3
-  role: Mentor
-  img: images/teams/avatar.png
+
+- name: Vicente Rafael Cortés
+  role: DSC Treasurer
+  img: https://drive.google.com/uc?export=view&id=1XKvzJrkdiOg-eCABxlNL0h3fujkkROxl
   descs:
-    - Mobile and Web developer
-    - Open source enthusiast
-    - Community mentor
+    - My goal is to create a space for developers 
+    - where everyone can feel included and 
+    - like their voice matters.
   social:
-    github: https://www.example.com
-    linkedin: https://www.example.com
+    linkedin: https://www.linkedin.com/in/vicentecortes/
+    instagram: https://www.instagram.com/vicentecortesrada/
+
+- name: Lina Soufny
+  role: Secretary
+  img: https://drive.google.com/uc?export=view&id=13cjDgWnS478Jz51fMvg-Zdf0f4ivGyhx
+  descs:
+    - Data Driven
+    - Passionate about using 
+    - tech for social good
+  social:
+    github: https://github.com/lsoufny
+    linkedin: https://www.linkedin.com/in/lina-s/
+
+- name: Venkata Sindhu Kandula
+  role: Tech Lead
+  img: https://drive.google.com/uc?export=view&id=1xqF7gMZU6IB3CMRv9pIRkEJM6vU3w_3K
+  descs:
+    - I am passionate about SD, blockchain, AI, solving real time 
+    - problems, helping peers while constantly learning myself. 
+    - Feel free to connect with me on my socials!
+  social:
+    github: https://github.com/bazinga776
+    linkedin: https://www.linkedin.com/in/venkata-sindhu-kandula/
+    instagram: https://www.instagram.com/sindhu.kandula/
+
+- name: Tyler Metzger
+  role: Tech Lead
+  img: https://drive.google.com/uc?export=view&id=1rGlIHmNxt07r4Uasbv1NtQDzU1gSBWQk
+  descs:
+    - I love technology, teaching, and meeting new people! 
+    - I'm always looking to learn new things, so feel free 
+    - to connect with me on any of my socials.
+  social:
+    github: https://github.com/TylerMetzger
+    linkedin: https://www.linkedin.com/in/tyler-metzger-9554251b4/
+    instagram: https://www.instagram.com/_tylermetz/
+
+- name: Raymond Yu
+  role: Tech Lead
+  img: https://drive.google.com/uc?export=view&id=10cwrRgSoRWx27JljWZ1-yy7vidbbKIwD
+  descs:
+    - I love to dig deep in problems, and the 
+    - thrill of solving a challenging problem 
+    - is what drives me to improve.
+  social:
+    github: https://github.com/ray7yu
+    linkedin: https://www.linkedin.com/in/raymond-yu-ab4955149/
+
+- name: Emily Jones
+  role: Webmaster
+  img: https://drive.google.com/uc?export=view&id=1Cy6DtXFXD0Exq3Fw-dVvN6iUhjWz_28N
+  descs:
+    - Software Developer
+    - Aspiring Product Manager
+    - Interested in UX Design
+    
+  social:
+    github: https://github.com/emilyjonesr
+    linkedin: https://www.linkedin.com/in/jones-emily/
+    instagram: https://www.instagram.com/_emily_jones/
+
+- name: Sophia Vellozzi
+  role: Communications Chair
+  img: https://drive.google.com/uc?export=view&id=1HEzflzI-2U1zgwDqzoIjuDNP0dnP5sk5
+  descs:
+    - Computer Science Student
+    - Aspiring Software Engineer
+    - Interested in technology and linguistics
+  social:
+    github: https://github.com/snvellozzi
+    linkedin: https://www.linkedin.com/in/sophia-vellozzi/
+
+- name: Gabriela Ares
+  role: Outreach Director
+  img: https://drive.google.com/uc?export=view&id=1e3MMVzeLuzQoSQEd_Pl7SYzbalYJc6--
+  descs:
+    - Future doctor
+    - Technology enthusiast
+    - Interested in biotechnology and bioinformatics  
+  social:
+    linkedin: https://www.linkedin.com/in/gabrielaares/
+    instagram: https://www.instagram.com/gabrielaares_/
+
+- name: Angela Chan
+  role: Marketing Lead
+  img: https://drive.google.com/uc?export=view&id=1sDsLVfToUMSlWlkEMQacwYsk3ma-3AkJ
+  descs:
+    - Information Systems student
+    - Passionate about intersection 
+    - between business and technology
+  social:
+    linkedin: https://www.linkedin.com/in/angelachan27/
+    instagram: https://www.instagram.com/ewangela/

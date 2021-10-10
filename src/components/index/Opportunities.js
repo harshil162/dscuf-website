@@ -20,7 +20,7 @@ const Opportunities = () => {
   `)
 
   return (
-    <section id="opportunities" className="section-spacer section-opp">
+    <section id="opportunities" className="section-spacer section-opp bg-very__gray">
       <Container>
         <header className="section-header text-center">
           <h2 className="section-title-custom">{header}</h2>

@@ -14,17 +14,12 @@ const Teams = _ => {
           name
           role
           descs
-          img {
-            childImageSharp {
-              fixed(width: 100, height: 100) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
+          img
           social {
             twitter
             github
             linkedin
+            instagram
           }
         }
       }
@@ -41,7 +36,6 @@ const Teams = _ => {
             program.
           </p>
         </header>
-
         <Container>
           <Row>
             {teams.map((team, i) => (

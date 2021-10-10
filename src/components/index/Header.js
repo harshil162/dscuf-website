@@ -2,18 +2,15 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import image from '../../images/header/diversity.png'
 import { graphql, useStaticQuery } from 'gatsby'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendar } from '@fortawesome/free-solid-svg-icons'
+
 
 const Header = () => {
   const {
-    websiteYaml: { calendar, university },
+    websiteYaml: { university},
   } = useStaticQuery(graphql`
     {
       websiteYaml {
-        calendar
         university
       }
     }
@@ -27,7 +24,7 @@ const Header = () => {
               <div className="hero-title__group">
                 <div className="hero-title">
                   <h2 className="zuri">
-                    Developer Student Club <br /> {university} University.
+                    Developer Student Club <br /> {university}.
                   </h2>
                 </div>
                 <div className="Hero--Subtitle">
@@ -46,21 +43,20 @@ const Header = () => {
                   </p>
                 </div>
               </div>
-              {calendar === '' ? null : (
-                <a className="hero-button" href={calendar}>
-                  <FontAwesomeIcon icon={faCalendar} className="mr-2" />
-                  Add to calendar
+              <a
+                    href={'https://join.slack.com/t/developerstud-9yr9176/shared_invite/zt-isw57wc4-pyN7r~9ar8O26w0GkWhMcw'}
+                    className="hero-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fas fa-users"></i>
+                    &nbsp; &nbsp;Become a member 
                 </a>
-              )}
             </div>
           </Col>
           <Col xs={12} sm={5} className="ml-auto ml-pic">
             <div className="hero-figure">
-              <img
-                src={image}
-                className="img-fluid w-100"
-                alt="Illustration of diversity in our developer community"
-              />
+              <img src='https://drive.google.com/uc?export=view&id=1nw7HmOwx7f56BiHLF-lcr2P6XXyR35b8' width="100%" height="100%"className="img-fluid" alt="Illustration of diversity in our developer community" />
             </div>
           </Col>
         </Row>

@@ -4,12 +4,6 @@ import Row from 'react-bootstrap/Row'
 import Overview from './Overview'
 import { graphql, useStaticQuery } from 'gatsby'
 
-import {
-  faRocket,
-  faLightbulb,
-  faUsers,
-} from '@fortawesome/free-solid-svg-icons'
-
 const Overviews = () => {
   const {
     allOverviewYaml: { nodes: overviews },
@@ -26,16 +20,13 @@ const Overviews = () => {
 
   const icons = [
     {
-      icon: faRocket,
-      className: 'ghost-blue',
+      icon: "fa fa-rocket fa-3x ghost-blue",
     },
     {
-      icon: faLightbulb,
-      className: 'ghost-red',
+      icon: "fas fa-lightbulb fa-3x ghost-red",
     },
     {
-      icon: faUsers,
-      className: 'ghost-green',
+      icon: "fa fa-users fa-3x ghost-green",
     },
   ]
 

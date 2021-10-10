@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../images/dsc-logo-large.png'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import BsNav from 'react-bootstrap/Nav'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUsers } from '@fortawesome/free-solid-svg-icons'
 
 const Nav = ({ register }) => {
   const [sticky, setSticky] = useState(false)
@@ -30,7 +27,7 @@ const Nav = ({ register }) => {
     >
       <Container>
         <a className="navbar-brand" href="/">
-          <img src={logo} className="logo-sm" alt="dsc logo" />
+          <img src='https://drive.google.com/uc?export=view&id=1PeyiXsNg1VflnBdRLpgebD_6_gogi_19' className="logo-sm" alt="dsc logo" />
         </a>
         <Navbar.Toggle
           aria-controls="navbarSupportedContent"
@@ -51,9 +48,12 @@ const Nav = ({ register }) => {
             <BsNav.Item>
               <BsNav.Link href="#technologies">Technologies</BsNav.Link>
             </BsNav.Item>
-            {/* <BsNav.Item>
+            <BsNav.Item>
+              <BsNav.Link href="#solutionchallenge">Solution Challenge</BsNav.Link>
+            </BsNav.Item>
+            <BsNav.Item>
               <BsNav.Link href="#workshops">Workshops</BsNav.Link>
-            </BsNav.Item> */}
+            </BsNav.Item>
             <BsNav.Item>
               <BsNav.Link href="#team">Team</BsNav.Link>
             </BsNav.Item>
@@ -61,18 +61,6 @@ const Nav = ({ register }) => {
               <BsNav.Link href="#faqs">Faqs</BsNav.Link>
             </BsNav.Item>
           </BsNav>
-          {register === '' ? null : (
-            <div className="custom-menu__right">
-              <a
-                href={register}
-                className="event-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faUsers} /> Become a member
-              </a>
-            </div>
-          )}
         </Navbar.Collapse>
       </Container>
     </Navbar>

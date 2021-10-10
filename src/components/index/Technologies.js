@@ -14,13 +14,7 @@ const Technologies = () => {
           body
           header
           link
-          img {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          img
         }
       }
     }
@@ -28,9 +22,9 @@ const Technologies = () => {
 
   return (
     <>
-      {technologies.map((technology, i) => (
-        <Technology {...technology} even={i % 2 === 0} key={i}>
-          {i !== 0 ? null : (
+      {technologies.map((technology, index) => (
+        <Technology {...technology} even={index % 2 !== 0} key={index} index={index}>
+           {index !== 0 ? null : (
             <header className="section-header text-center">
               <h2 className="section-title">{header}</h2>
               <p className="section-subtitle">{subheader}</p>

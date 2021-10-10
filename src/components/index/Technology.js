@@ -2,21 +2,12 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Img from 'gatsby-image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-const Technology = ({ header, body, link, children, even, img, alt }) => {
+const Technology = ({ header, body, link, children, even, img, alt, index }) => {
   const image = (
     <Col sm={6}>
       <div className="feature-list-image">
-        <Img
-          fluid={img.childImageSharp.fluid}
-          width="100%"
-          height="50%"
-          className="img-fluid"
-          alt={alt}
-        />
+        <img src={img} className="img-fluid" alt={alt} width="100%" height="50%"/>
       </div>
     </Col>
   )
@@ -35,8 +26,8 @@ const Technology = ({ header, body, link, children, even, img, alt }) => {
           rel="noopener noreferrer"
           alt={`link to ${header} section`}
         >
-          Codelabs &nbsp; &nbsp;
-          <FontAwesomeIcon icon={faExternalLinkAlt} />
+          Codelabs &nbsp;
+          <i className="fa fa-external-link-alt" aria-hidden="true" style={{paddingLeft: 5}}></i>
         </a>
       </div>
     </Col>

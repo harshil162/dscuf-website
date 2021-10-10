@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 const Opportunity = ({ text }) => (
   <Col sm={6}>
-    <Card body>
+    <Card className="bg-very__gray" body>
       <ul>
         <li>{text}</li>
       </ul>

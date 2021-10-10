@@ -7,7 +7,7 @@ import './Layout.scss'
 
 const Layout = ({ children }) => {
   const {
-    websiteYaml: { title, lang, description, register },
+    websiteYaml: { title, lang, description },
   } = useStaticQuery(graphql`
     {
       websiteYaml {
@@ -15,12 +15,11 @@ const Layout = ({ children }) => {
         description
         university
         lang
-        register
-        mail
         social {
           youtube
           github
-          twitter
+          instagram
+          slack
         }
       }
     }
@@ -29,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Seo {...{ title, lang, description }} />
-      <Nav register={register} />
+      <Nav />
       {children}
       <Footer />
     </>
