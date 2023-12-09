@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
           youtube
           github
           instagram
-          slack
+          discord
         }
       }
     }
