@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import { graphql, useStaticQuery } from 'gatsby'
 
-
 const Header = () => {
   const {
     websiteYaml: { university},
