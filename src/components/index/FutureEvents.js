@@ -9,20 +9,16 @@ const FutureEvents = ({ header, body }) => (
           <div className="card event-card">
             <img className="card-img-top" src='https://drive.google.com/uc?export=view&id=1G-BvdhWqqmOS3poc1AdGBvoQigCd97Mg' alt="Solution Challenge Mixer poster"/>
             <div className="card-body">
-                <h5 className="card-title">Spring GBM #3</h5>
+                <h5 className="card-title">Spring GBM #1</h5>
                 <table>
                 <thead>
                     <tr>
                         <td width="15%" className="text-blue"><i className="far fa-calendar-alt"></i></td>
-                        <td>April 7<sup>th</sup> 2021 </td>
-                    </tr>
-                    <tr>
-                        <td className="text-red"><i className="fas fa-map-marker-alt"></i></td>
-                        <td>Zoom ID: 975 1733 0375</td>
+                        <td> Date TBD, 2024 </td>
                     </tr>
                     <tr>
                         <td className="text-green"><i className="far fa-clock"></i></td>
-                        <td>7:00 PM EST </td>
+                        <td>Time TBD </td>
                     </tr>
                     </thead>
                 </table>
