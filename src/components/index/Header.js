@@ -44,7 +44,7 @@ const Header = () => {
                 </div>
               </div>
               <a
-                    href={'https://join.slack.com/t/developerstud-9yr9176/shared_invite/zt-isw57wc4-pyN7r~9ar8O26w0GkWhMcw'}
+                    href={'https://discord.gg/Bn9vzMHv'}
                     className="hero-button"
                     target="_blank"
                     rel="noopener noreferrer"
