@@ -25,7 +25,7 @@ const Footer = () => {
           youtube
           github
           instagram
-          slack
+          discord
         }
       }
     }
